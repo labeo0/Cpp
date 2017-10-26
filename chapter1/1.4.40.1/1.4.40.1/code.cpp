@@ -1,3 +1,4 @@
+//Lab 1.4.1 Floats: operators and expressions
 #include <iostream>
 using namespace std;
 int main(void) {
@@ -5,7 +6,13 @@ int main(void) {
 	float x,y;
 	cout << "Enter value for x: ";
 	cin >> x;
-	// put your code here
+	
+	float p1,p2;
+	p1 = x*x/(pi*pi)/(x*x+.5);
+	p2 = 1. + (x*x/(pi*pi)/(x*x-.5)/(x*x-.5));
+
+	y=p1*p2;
 	cout << "y = " << y;
+	system("pause");
 	return 0;
-}
+}
