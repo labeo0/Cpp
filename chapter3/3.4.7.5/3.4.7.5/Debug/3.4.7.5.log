@@ -1,0 +1,15 @@
+﻿Построение начато 29.10.2017 20:15:04.
+     1>Проект "D:\1Practice\c++\Ess\chapter3\3.4.7.5\3.4.7.5\3.4.7.5.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Soft\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt code.cpp
+         code.cpp
+     1>d:\1practice\c++\ess\chapter3\3.4.7.5\3.4.7.5\code.cpp(60): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\soft\vc\include\time.inl(112): см. объявление "localtime"
+       Link:
+         D:\Soft\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1Practice\c++\Ess\chapter3\3.4.7.5\Debug\3.4.7.5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1Practice\c++\Ess\chapter3\3.4.7.5\Debug\3.4.7.5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1Practice\c++\Ess\chapter3\3.4.7.5\Debug\3.4.7.5.lib" /MACHINE:X86 Debug\code.obj
+         3.4.7.5.vcxproj -> D:\1Practice\c++\Ess\chapter3\3.4.7.5\Debug\3.4.7.5.exe
+     1>Построение проекта "D:\1Practice\c++\Ess\chapter3\3.4.7.5\3.4.7.5\3.4.7.5.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.78
