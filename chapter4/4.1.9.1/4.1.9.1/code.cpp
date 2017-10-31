@@ -38,7 +38,7 @@ int main()
 		cout <<fixed<<setprecision(2)<<"Course "<<i+1<<": final "<<courseSum/arr[i][0]<<" grades :";
 		for(int c = 1; c <= arr[i][0]; c++)
 			cout << arr[i][c] << " ";
-
+		
 		cout << endl;
 		overFin+=courseSum/arr[i][0];
 		courseSum = 0;
