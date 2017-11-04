@@ -1,4 +1,4 @@
-﻿Построение начато 03.11.2017 14:30:08.
+﻿Построение начато 04.11.2017 15:14:52.
      1>Проект "D:\1Practice\c++\Ess\chapter4\4.5.6.1_eleminate_duplicates\4.5.6.1_eleminate_duplicates\4.5.6.1_eleminate_duplicates.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          D:\Soft\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt code.cpp
@@ -10,4 +10,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.24
+Затраченное время: 00:00:02.19
