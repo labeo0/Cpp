@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.3.10.3.Gym_membership_managment", "5.3.10.3.Gym_membership_managment\5.3.10.3.Gym_membership_managment.vcxproj", "{27BE3228-2FC5-4D3E-A06B-1E7943079DCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BE3228-2FC5-4D3E-A06B-1E7943079DCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27BE3228-2FC5-4D3E-A06B-1E7943079DCC}.Debug|Win32.Build.0 = Debug|Win32
+		{27BE3228-2FC5-4D3E-A06B-1E7943079DCC}.Release|Win32.ActiveCfg = Release|Win32
+		{27BE3228-2FC5-4D3E-A06B-1E7943079DCC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
