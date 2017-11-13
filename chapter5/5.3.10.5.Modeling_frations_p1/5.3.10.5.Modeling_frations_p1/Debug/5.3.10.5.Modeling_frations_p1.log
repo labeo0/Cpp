@@ -1,4 +1,4 @@
-﻿Построение начато 05.11.2017 19:06:24.
+﻿Построение начато 13.11.2017 11:51:58.
      1>Проект "D:\1Practice\c++\Ess\chapter5\5.3.10.5.Modeling_frations_p1\5.3.10.5.Modeling_frations_p1\5.3.10.5.Modeling_frations_p1.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          D:\Soft\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\5.3.10.5.Modeling_frations_p1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 5.3.10.5.Modeling_frations_p1.cpp
@@ -11,4 +11,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.19
+Затраченное время: 00:00:02.44

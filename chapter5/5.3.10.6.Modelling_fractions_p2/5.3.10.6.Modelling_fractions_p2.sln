@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.3.10.6.Modelling_fractions_p2", "5.3.10.6.Modelling_fractions_p2\5.3.10.6.Modelling_fractions_p2.vcxproj", "{6579A0A2-9B10-4EB2-94B2-2B26FE7C5947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6579A0A2-9B10-4EB2-94B2-2B26FE7C5947}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6579A0A2-9B10-4EB2-94B2-2B26FE7C5947}.Debug|Win32.Build.0 = Debug|Win32
+		{6579A0A2-9B10-4EB2-94B2-2B26FE7C5947}.Release|Win32.ActiveCfg = Release|Win32
+		{6579A0A2-9B10-4EB2-94B2-2B26FE7C5947}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

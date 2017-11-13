@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include <string>
+#include <sstream>
 using namespace std;
 class Fraction{
 public:
@@ -14,46 +15,32 @@ public:
 	}
 	string toString()
 	{
-		string res = "";
-		char *str = new char[];
-		if(numerator*denominator < 0)
-		{
-			res+='-';
-			numerator = abs(numerator);
-			denominator= abs(denominator);
-		}
-		else if(numerator*denominator>0)
-		{
-			numerator = abs(numerator);
-			denominator= abs(denominator);
-		}
-		else
-			return "0";
+		if(numerator == 0)
+			return 0;
+		stringstream res;
+		int num = abs(numerator);
+		int den = abs(denominator);
 
-		int integer = numerator/denominator;
+		//find if fraction is negative
+		if(numerator < 0 && denominator > 0 || numerator > 0 && denominator < 0)
+			res<<"-";
 
-		if (integer == 0)
+		if(double(num)/den == 1)
 		{
-			_itoa(numerator,str,10);
-			res+=string(str)+'/';
-			_itoa(denominator,str,10);
-			res+=string(str);
+			res<<'1';
+			return res.str();
 		}
-		else if(integer > 0 && numerator%denominator == 0)
+		else if(num>den)
 		{
-			_itoa(numerator/denominator,str,10);
-			res+=string(str);
-		}
-		else if(integer > 0&& numerator%denominator!=0)
-		{
-			_itoa(integer,str,10);
-			res+= string(str)+" ";
-			_itoa(numerator-integer*denominator,str,10);
-			res+=string(str)+"/";
-			_itoa(numerator-integer*denominator,str,10);
-		}
+			int intg = num/den;//integer part
+			num-=intg*den;
 
-		return res;
+			res<<intg<<' '<<num<<'/'<<den;
+			return res.str();
+		}
+		res<<' '<<num<<'/'<<den;
+		return res.str();
+
 	}
 	double toDouble()
 	{
@@ -62,7 +49,9 @@ public:
 private:
 	int numerator;
 	int denominator;
-};
+	
+};
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -81,6 +70,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	Fraction fraction(num, den);
 	std::cout << fraction.toString() << " is " << fraction.toDouble()<<" in decimal\n";
-	return 0;
+	return 0;
+
 }
 
