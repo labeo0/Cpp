@@ -1,1 +1,1 @@
-Empty labs: Plain text formating/ pattren match/ template
+Empty labs: Plain text formating/ template
